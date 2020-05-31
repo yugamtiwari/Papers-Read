@@ -1,1 +1,9 @@
-
+1)Link to the paper : https://arxiv.org/pdf/2004.15011.pdf
+2)SCITLDR includes multiple goldTLDRs for each paper in the test set, where one TLDR is written by the author while the rest are
+human-written TLDRs that are obtained from peer review comments.
+3)Standard automated evaluation methods for summarization, such as the Rouge framework, rely on comparing system generated summaries with gold human-written summaries. Therefore, considering only one gold TLDR
+for each paper as a basis of evaluation, might result in inaccurate system quality assessment because content that might appear in a TLDR can have large
+variability.
+4)It is more effecient to write Tldr from peer reviews than reading the full paper.
+5)Training a model to generate titles of the paper will result in significant improvement in the tldr generation task.
+6)
